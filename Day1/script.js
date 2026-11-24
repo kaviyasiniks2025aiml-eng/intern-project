@@ -66,7 +66,7 @@ console.log(person);
 const num = [1,2,3,4,5];
 let age1= new Array(5);
 for(let i = 0; i<age1.length;i++){
-    console.log(age[i]);
+    console.log(age1[i]);
 }
 //built in array
 //1.push
@@ -96,19 +96,13 @@ name();
 name();
 name();
 name();
-function add(){
-return a+b;
-}
 let a = 30;
 let b = 40;
-let c1 = add(a,b);
-console.log(c1);
-function add(n1){
- console.log("Hello "+n1);
+function add(n1, n2){
+    return n1 + n2;
 }
-add("kaviya");
-add("faru");
-add("bavi");
+let c1 = add(a, b);
+console.log(c1);
 //arrow function
 const multiply=(a,b)=>{
  return a*b;
